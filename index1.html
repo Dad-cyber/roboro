@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>3D Cube</title>
+</head>
+<body>
+    
+    <div class="mp">
+        <div class="imag">
+        <div>
+        <h2>roboro</h2>
+        </div>
+        </div>
+        <div class="card">
+            <div class="container">
+                <div class="cube">
+                    <div class="top"></div>
+                    <div>
+                        <span style="--i:0;"></span>
+                        <span style="--i:1;"></span>
+                        <span style="--i:2;"></span>
+                        <span style="--i:3;"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="contain">
+                <div class="menu">
+                    <div class="toggle">Menu</div>
+                    <li style="--j:0;">
+                        <a href="#">Home</a>
+                    </li>
+                    <li style="--j:1;">
+                        <a href="#">Info</a>
+                    </li>
+                    <li style="--j:2;">
+                        <a href="#">Games</a>
+                    </li>
+                    <li style="--j:3;">
+                        <a href="#">feedback</a>
+                    </li>
+                    <li style="--j:4;">
+                        <a href="#">Camera</a>
+                    </li>
+                    <li style="--j:5;">
+                        <a href="index.html">Note</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick=function(){
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
